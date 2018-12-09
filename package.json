@@ -1,0 +1,33 @@
+{
+  "name": "serverlessdays-organise",
+  "version": "0.0.1",
+  "description": "ServerlessDays Organisers Documentation",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ServerlessDays/organise.git"
+  },
+  "keywords": [
+    "serverless",
+    "serverlessdays",
+    "community",
+    "documentation"
+  ],
+  "author": "A. Stanley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ServerlessDays/organise/issues"
+  },
+  "homepage": "https://github.com/ServerlessDays/organise#readme",
+  "dependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
