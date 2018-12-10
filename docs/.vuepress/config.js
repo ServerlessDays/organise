@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'ServerlessDays Organisers Guid',
+  title: 'ServerlessDays Organisers Guide',
   description: 'A practical guide on how to run a ServerlessDays event',
   head: [
     [
@@ -17,6 +17,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    logo: '/serverlessdays_white.svg',
     nav: [{ text: 'Home', link: '/' }, { text: 'Guide', link: '/guide/' }],
     sidebar: [
       '/guide/',

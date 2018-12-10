@@ -19,7 +19,7 @@ export default {
 .feature {
   flex-grow: 1;
   flex-basis: 30%;
-  max-width: 30%;
+  max-width: 16rem;
 
   h2 {
     font-size: 1.4rem;

@@ -81,7 +81,7 @@ export default {
     .action-button {
       display: inline-block;
       font-size: 1.2rem;
-      color: #fff;
+      color: #011627;
       background-color: $accentColor;
       padding: 0.8rem 1.6rem;
       border-radius: 4px;
@@ -94,6 +94,7 @@ export default {
       }
     }
   }
+
   .footer {
     padding: 2.5rem;
     border-top: 1px solid $borderColor;

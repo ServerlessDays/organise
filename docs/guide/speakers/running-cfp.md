@@ -2,6 +2,8 @@
 title: Running a CFP
 ---
 
+# Running a CFP
+
 Our second Serverless Days conference in London happened this summer (ok, it was our first, but the first one was called JeffConf London and this was the follow on with a name change) and we wanted to let you know how we ran the CFP, as it was a little different.
 
 A little bit about the process of choosing the talks.
@@ -10,9 +12,9 @@ We spend a lot of time trying to ensure that we keep our conferences diverse. Di
 
 So that we as an organising committee of 5 (4 technical people and 1 logistical), could avoid bias in our CFP selection process, we anonymised the CFP. This was relatively difficult, as all submissions are named and contain identifying information. So, one of our organising committee (me) was selected to act as the “anonymiser” for the other technical members (Ant Stanley, James Thomas, Simona Cotin) of the organising committee. The anonymisation process was relatively simple:
 
-    Give each talk a unique non-sequential code
-    Remove all information around the person’s name, email address and date of posting
-    Review each submission and remove any mention of the company or any identifiers (e.g. he/she/them or links to other talks that the person has given) unless the company was required to explain the talk content — e.g. an implementation of a technology at a company is different to a talk on a technology from a person who works at a specific company.
+-   Give each talk a unique non-sequential code
+-   Remove all information around the person’s name, email address and date of posting
+-   Review each submission and remove any mention of the company or any identifiers (e.g. he/she/them or links to other talks that the person has given) unless the company was required to explain the talk content — e.g. an implementation of a technology at a company is different to a talk on a technology from a person who works at a specific company.
 
 This was an imperfect process, but it mostly worked. The submission review process was relatively simple after that. The reviewers would give a mark out of 5. Any mark below 2 from any reviewer was automatically rejected as either out of scope for the conference, or not of sufficiently high quality to be considered. There were only a small proportion of talks actually rejected by reviewers.
 

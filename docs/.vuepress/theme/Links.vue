@@ -32,8 +32,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  align-content: stretch;
-  justify-content: space-between;
+  float: left;
 }
 
 @media (max-width: $MQMobile) {

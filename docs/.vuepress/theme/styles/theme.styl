@@ -9,6 +9,7 @@
 html, body
   padding 0
   margin 0
+  background $themeBgColor
 
 body
   font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
@@ -27,7 +28,7 @@ body
   left 0
   right 0
   height $navbarHeight
-  background-color #fff
+  background-color $themeBgColor
   box-sizing border-box
   border-bottom 1px solid $borderColor
 
@@ -42,7 +43,7 @@ body
 
 .sidebar
   font-size 15px
-  background-color #fff
+  background-color $themeBgColor
   width $sidebarWidth
   position fixed
   z-index 10
@@ -97,6 +98,8 @@ blockquote
   padding-left 1rem
 
 ul, ol
+  margin-bottom 0.875rem
+  margin-top 0.875rem
   padding-left 1.2em
 
 strong
@@ -142,7 +145,7 @@ code, kbd, .line-number
   font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
 
 p, ul, ol
-  line-height 1.7
+  line-height 1.8
 
 hr
   border 0
