@@ -1,16 +1,16 @@
 <template>
-  <div class="page">
+  <div class="section">
     <slot name="top"/>
 
     <div class="sectionHead">
       <h1>{{ data.title || $title}}</h1>
       <p class="description">{{ data.description || $description }}</p>
+      <Links :linkSet="linksData"/>
     </div>
-    <Links :linkSet="linksData"/>
 
     <Content :custom="false"/>
 
-    <div class="page-edit">
+    <div class="section-edit">
       <div class="edit-link" v-if="editLink">
         <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
         <OutboundLink/>
@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <div class="page-nav" v-if="prev || next">
+    <div class="section-nav" v-if="prev || next">
       <p class="inner">
         <span v-if="prev" class="prev">←
           <router-link v-if="prev" class="prev" :to="prev.path">{{ prev.title || prev.path }}</router-link>
@@ -183,14 +183,16 @@ function find(page, items, offset) {
 @require './styles/wrapper.styl';
 
 .sectionHead {
-  h1 {
-    font-size: 2rem;
-    margin-top: 5rem;
-    text-align: left;
-  }
+  margin: 0 2rem auto;
+  padding: 2rem 2.5rem;
 
-  h1, .description {
-    margin-left: 4rem;
+  h1 {
+    font-size: 2.2rem;
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.25;
+    padding-top: 4.6rem;
+    text-align: left;
   }
 
   .description {
@@ -201,11 +203,11 @@ function find(page, items, offset) {
   }
 }
 
-.page {
+.section {
   padding-bottom: 2rem;
 }
 
-.page-edit {
+.section-edit {
   @extend $wrapper;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -236,8 +238,9 @@ function find(page, items, offset) {
   }
 }
 
-.page-nav {
+.section-nav {
   @extend $wrapper;
+  clear: both;
   padding-top: 1rem;
   padding-bottom: 0;
 
@@ -255,12 +258,12 @@ function find(page, items, offset) {
 }
 
 @media (max-width: $MQMobile) {
-  .page-edit {
+  .section-edit {
     .edit-link {
       margin-bottom: 0.5rem;
     }
 
-    .last-updated {
+    .section-updated {
       font-size: 0.8em;
       float: none;
       text-align: left;
