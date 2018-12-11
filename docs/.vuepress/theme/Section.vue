@@ -183,22 +183,6 @@ function find(page, items, offset) {
 .sectionIndex {
   margin: 0 2rem auto;
   padding: 0rem 2.5rem;
-
-  h1 {
-    font-size: 2.2rem;
-    margin-top: -1.5rem;
-    margin-bottom: 1rem;
-    line-height: 1.25;
-    padding-top: 4.6rem;
-    text-align: left;
-  }
-
-  .description {
-    max-width: 50rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: lighten($textColor, 40%);
-  }
 }
 
 .section {
@@ -253,6 +237,10 @@ function find(page, items, offset) {
   .next {
     float: right;
   }
+}
+
+a {
+  padding-right: 0.25rem;
 }
 
 @media (max-width: $MQMobile) {
