@@ -27,12 +27,9 @@ export default {
 @import './styles/config.styl';
 
 .links {
-  padding: 1rem 0;
-  margin-top: 2.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  margin-top: 1rem;
   float: left;
+  width: 100%;
 }
 
 @media (max-width: $MQMobile) {

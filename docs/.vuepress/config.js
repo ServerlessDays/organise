@@ -18,17 +18,20 @@ module.exports = {
   },
   themeConfig: {
     logo: '/serverlessdays_white.svg',
-    nav: [{ text: 'Home', link: '/' }, { text: 'Guide', link: '/guide/' }],
+    nav: [
+      { text: 'Home', link: 'https://serverlessdays.io' },
+      { text: 'Guide', link: '/' }
+    ],
     sidebar: [
-      '/guide/',
-      '/guide/budget/',
-      '/guide/event-logistics/',
-      '/guide/inclusivity/',
-      '/guide/legal/',
-      '/guide/marketing/',
-      '/guide/speakers/',
-      '/guide/sponsors/',
-      '/guide/website/'
+      '/',
+      '/inclusivity/',
+      '/budget/',
+      '/event-logistics/',
+      '/legal/',
+      '/promotion/',
+      '/speakers/',
+      '/sponsors/',
+      '/website/'
     ],
     serviceWorker: {
       updatePopup:

@@ -2,13 +2,11 @@
   <div class="section">
     <slot name="top"/>
 
-    <div class="sectionHead">
-      <h1>{{ data.title || $title}}</h1>
-      <p class="description">{{ data.description || $description }}</p>
+    <Content :custom="false"/>
+
+    <div class="sectionIndex">
       <Links :linkSet="linksData"/>
     </div>
-
-    <Content :custom="false"/>
 
     <div class="section-edit">
       <div class="edit-link" v-if="editLink">
@@ -182,9 +180,9 @@ function find(page, items, offset) {
 @import './styles/config.styl';
 @require './styles/wrapper.styl';
 
-.sectionHead {
+.sectionIndex {
   margin: 0 2rem auto;
-  padding: 2rem 2.5rem;
+  padding: 0rem 2.5rem;
 
   h1 {
     font-size: 2.2rem;

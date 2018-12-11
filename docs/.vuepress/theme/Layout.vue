@@ -18,8 +18,6 @@
       <component :is="$page.frontmatter.layout"/>
     </div>
 
-    <Home v-else-if="$page.frontmatter.home"/>
-
     <Section v-else-if="$page.frontmatter.section" :sidebar-items="sidebarItems">
       <slot name="page-top" slot="top"/>
       <slot name="page-bottom" slot="bottom"/>
