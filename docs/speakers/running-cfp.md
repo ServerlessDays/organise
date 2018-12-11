@@ -1,7 +1,7 @@
 ---
 title: Running a CFP
-next: /guide/speakers/expenses.html
-prev: /guide/speakers/
+next: /speakers/expenses.html
+prev: /speakers/
 ---
 
 # Running a CFP
