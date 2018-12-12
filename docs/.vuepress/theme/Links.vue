@@ -31,11 +31,5 @@ export default {
   float: left;
   width: 100%;
 }
-
-@media (max-width: $MQMobile) {
-  .links {
-    flex-direction: column;
-  }
-}
 </style>
 

@@ -176,7 +176,7 @@ function find(page, items, offset) {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus"  scoped>
 @import './styles/config.styl';
 @require './styles/wrapper.styl';
 
@@ -186,6 +186,7 @@ function find(page, items, offset) {
 }
 
 .section {
+  padding-left: $sidebarWidth;
   padding-bottom: 2rem;
 }
 
@@ -254,6 +255,24 @@ a {
       float: none;
       text-align: left;
     }
+  }
+
+  .page-nav {
+    padding: 0rem;
+  }
+
+  .section {
+    padding: 0rem;
+  }
+
+  .sectionIndex {
+    margin: 0rem 0.5rem;
+    padding: 0rem 0.5rem;
+  }
+
+  .content:not(.custom) {
+    padding: 1.5rem 0.875rem;
+    margin: 0rem;
   }
 }
 </style>

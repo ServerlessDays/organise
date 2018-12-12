@@ -163,11 +163,12 @@ function find(page, items, offset) {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 @import './styles/config.styl';
 @require './styles/wrapper.styl';
 
 .page {
+  padding-left: $sidebarWidth;
   padding-bottom: 2rem;
 }
 
@@ -231,6 +232,19 @@ function find(page, items, offset) {
       float: none;
       text-align: left;
     }
+  }
+
+  .page {
+    padding: 0rem;
+  }
+
+  .page-nav {
+    padding: 0rem;
+  }
+
+  .content:not(.custom) {
+    padding: 1.5rem 0.875rem;
+    margin: 0rem;
   }
 }
 </style>

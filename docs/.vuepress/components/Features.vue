@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
 @import '../theme/styles/config.styl';
 
 .features {
@@ -60,8 +60,8 @@ export default {
 
 @media (max-width: $MQMobile) {
   .feature {
-    max-width: 80%;
-    padding: 0 2.5rem;
+    max-width: 100%;
+    padding: 0 0rem;
   }
 }
 

@@ -55,8 +55,8 @@ export default {
 
 @media (max-width: $MQMobile) {
   .link {
-    max-width: 100%;
-    padding: 0 2.5rem;
+    width: 90%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
   }
 }
 
