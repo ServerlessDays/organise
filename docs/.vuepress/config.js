@@ -31,7 +31,8 @@ module.exports = {
       '/promotion/',
       '/speakers/',
       '/sponsors/',
-      '/website/'
+      '/website/',
+      '/sustainability/'
     ],
     serviceWorker: {
       updatePopup:
