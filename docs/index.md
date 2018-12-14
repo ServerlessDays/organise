@@ -27,7 +27,7 @@ features:
 
 # ServerlessDays Organising Guide
 
-The core aim of ServerlessDays is to grow the Serverless Community. It is a community run conference series founded on three basic principles.
+The core aim of ServerlessDays is to grow the Serverless Community founded on three basic principles.
 
 <Features/>
 

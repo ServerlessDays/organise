@@ -22,6 +22,11 @@ module.exports = {
       { text: 'Home', link: 'https://serverlessdays.io' },
       { text: 'Guide', link: '/' }
     ],
+    repo: 'serverlessdays/organise',
+    repoLabel: 'Contribute!',
+    docsDir: 'docs',
+    docsBranch: 'master',
+    editLinks: true,
     sidebar: [
       '/',
       '/inclusivity/',

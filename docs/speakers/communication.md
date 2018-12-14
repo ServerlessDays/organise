@@ -1,5 +1,5 @@
 ---
 title: Speaker Communication
-prev: /speakers/expenses.html
+prev: expenses.html
 next: /sponsors/
 ---

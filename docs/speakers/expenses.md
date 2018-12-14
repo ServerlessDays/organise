@@ -1,5 +1,5 @@
 ---
 title: Speaker Expenses
-prev: /speakers/running-cfp.html
-next: /speakers/communication.html
+prev: running-cfp.html
+next: communication.html
 ---

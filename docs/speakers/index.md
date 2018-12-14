@@ -12,4 +12,10 @@ links:
 -   title: Communication
     details: Effective communication strategy for your speakers
     link: communication.html
+prev: /promotion/paid.html
+next: running-cfp.html
 ---
+
+# Speakers
+
+How to effectively manage your speakers.

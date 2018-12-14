@@ -1,6 +1,6 @@
 ---
 title: Running a CFP
-next: /speakers/expenses.html
+next: expenses.html
 prev: /speakers/
 ---
 
